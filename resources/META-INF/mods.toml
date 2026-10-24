@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="veritydark"
+version="1.1.1"
+displayName="Verity: Darkness & Containment"
+authors="You"
+description='''An addon for The Verity Mod.
+
+A sanity meter that drains in the dark and near anomalies. Sanity Tonics (drink, splash,
+lingering), Comfort Cookies, the Smile Charm, the Smile Lamp and the Containment Lantern
+refill it and calm Verity. The angrier Verity gets, the stronger it becomes and the more
+Anomalies it summons. Forge a Null Blade from Distortion Shards to fight back.'''
+
+[[dependencies.veritydark]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.veritydark]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.veritydark]]
+    modId="verity"
+    mandatory=true
+    versionRange="[1.9.8,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.veritydark]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.8.4,5)"
+    ordering="AFTER"
+    side="BOTH"
